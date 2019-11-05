@@ -1,0 +1,72 @@
+.App {
+  text-align: left;
+  background: cornflowerblue;
+  max-width: calc(100%-2rem);
+  margin: 0 2rem;
+}
+
+.App-logo {
+  height: 4vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.profile_pic {
+  width: 100%;
+  max-width: 300px;
+}
+
+.base_margin {
+  margin: 24px 0;
+}
